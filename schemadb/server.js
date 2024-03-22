@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/AfrinDB', {
+mongoose.connect('mongodb://localhost:27017/HemaDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
@@ -31,7 +31,7 @@ app.use(bodyParser.json());
 
 // Insert static rows
 const staticUsers = [
-  { name: 'Afrin', email: 'afrin@gamil.com', age: 20 },
+  { name: 'Hema', email: 'hema@gamil.com', age: 20 },
   { name: 'Sruthi', email: 'sruthi@gmail.com', age: 21 }
 ];
 
