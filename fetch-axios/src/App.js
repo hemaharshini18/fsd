@@ -51,7 +51,7 @@ function App() {
         </section>
       </div> 
       <div className='watermark'>
-        <p>Nandini</p>
+        <p>Hema Harshini</p>
       </div>
     </div>
   );
